@@ -1,5 +1,14 @@
 # Eagle-Library
-My libraries for Eagle CAD
+My libraries for Eagle CAD.
+
+#Content
+
+<b>Misaka-Resistors.lbr:</b> <br>
+SMD:
+0402
+0603
+0805
+1210
 
 #License
 

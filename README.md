@@ -8,9 +8,17 @@ My libraries for Eagle CAD.
 0402
 0603
 0805
+1206
 1210
 2010
 2512
+<br>
+<b>Capacitors:</b>
+0402
+0603
+0805
+1206
+1210
 
 #License
 

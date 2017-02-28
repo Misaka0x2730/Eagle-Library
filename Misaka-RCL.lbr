@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -183,27 +183,117 @@
 <rectangle x1="-3.225" y1="-1.6" x2="-2.375" y2="1.6" layer="51"/>
 <rectangle x1="2.375" y1="-1.6" x2="3.225" y2="1.6" layer="51"/>
 </package>
+<package name="C0402">
+<smd name="1" x="-0.65" y="0" dx="0.9" dy="0.7" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.9" dy="0.7" layer="1"/>
+<wire x1="-1.36" y1="0.61" x2="1.36" y2="0.61" width="0.12" layer="21"/>
+<wire x1="1.36" y1="0.61" x2="1.36" y2="-0.61" width="0.12" layer="21"/>
+<wire x1="1.36" y1="-0.61" x2="-1.36" y2="-0.61" width="0.12" layer="21"/>
+<wire x1="-1.36" y1="-0.61" x2="-1.36" y2="0.61" width="0.12" layer="21"/>
+<text x="-1.3" y="0.8" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;NAME</text>
+<text x="-1.3" y="-1.75" size="1" layer="27" font="vector" ratio="15" distance="45">&gt;VALUE</text>
+<wire x1="-0.49" y1="0.24" x2="0.49" y2="0.24" width="0.12" layer="51"/>
+<wire x1="0.49" y1="0.24" x2="0.49" y2="-0.24" width="0.12" layer="51"/>
+<wire x1="0.49" y1="-0.24" x2="-0.49" y2="-0.24" width="0.12" layer="51"/>
+<wire x1="-0.49" y1="-0.24" x2="-0.49" y2="0.24" width="0.12" layer="51"/>
+<rectangle x1="0.25" y1="-0.3" x2="0.55" y2="0.3" layer="51"/>
+<rectangle x1="-0.55" y1="-0.3" x2="-0.25" y2="0.3" layer="51"/>
+</package>
+<package name="C0603">
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1" rot="R270"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1" rot="R270"/>
+<wire x1="0.79" y1="0.415" x2="-0.79" y2="0.415" width="0.12" layer="51"/>
+<wire x1="-0.79" y1="0.415" x2="-0.79" y2="-0.415" width="0.12" layer="51"/>
+<wire x1="-0.79" y1="-0.415" x2="0.79" y2="-0.415" width="0.12" layer="51"/>
+<wire x1="0.79" y1="-0.415" x2="0.79" y2="0.415" width="0.12" layer="51"/>
+<rectangle x1="-0.85" y1="-0.475" x2="-0.45" y2="0.475" layer="51"/>
+<rectangle x1="0.45" y1="-0.475" x2="0.85" y2="0.475" layer="51"/>
+<text x="-1.6" y="0.9" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;NAME</text>
+<text x="-1.6" y="-1.9" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;VALUE</text>
+<wire x1="-1.66" y1="0.76" x2="1.66" y2="0.76" width="0.12" layer="21"/>
+<wire x1="1.66" y1="0.76" x2="1.66" y2="-0.76" width="0.12" layer="21"/>
+<wire x1="1.66" y1="-0.76" x2="-1.66" y2="-0.76" width="0.12" layer="21"/>
+<wire x1="-1.66" y1="-0.76" x2="-1.66" y2="0.76" width="0.12" layer="21"/>
+</package>
+<package name="C0805">
+<smd name="1" x="-0.95" y="0" dx="1.5" dy="1.3" layer="1" rot="R90"/>
+<smd name="2" x="0.95" y="0" dx="1.5" dy="1.3" layer="1" rot="R90"/>
+<text x="-1.8" y="1.2" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;NAME</text>
+<text x="-1.8" y="-2.2" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;VALUE</text>
+<rectangle x1="0.425" y1="-0.7" x2="1.075" y2="0.7" layer="51"/>
+<rectangle x1="-1.075" y1="-0.7" x2="-0.425" y2="0.7" layer="51"/>
+<wire x1="1.015" y1="0.64" x2="1.015" y2="-0.64" width="0.12" layer="51"/>
+<wire x1="-1.015" y1="0.64" x2="-1.015" y2="-0.64" width="0.12" layer="51"/>
+<wire x1="-1.015" y1="-0.64" x2="1.015" y2="-0.64" width="0.12" layer="51"/>
+<wire x1="-1.015" y1="0.64" x2="1.015" y2="0.64" width="0.12" layer="51"/>
+<wire x1="-1.86" y1="1.01" x2="1.86" y2="1.01" width="0.12" layer="21"/>
+<wire x1="1.86" y1="1.01" x2="1.86" y2="-1.01" width="0.12" layer="21"/>
+<wire x1="1.86" y1="-1.01" x2="-1.86" y2="-1.01" width="0.12" layer="21"/>
+<wire x1="-1.86" y1="-1.01" x2="-1.86" y2="1.01" width="0.12" layer="21"/>
+</package>
+<package name="C1206">
+<smd name="1" x="-1.4" y="0" dx="1.8" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="1.4" y="0" dx="1.8" dy="1.6" layer="1" rot="R90"/>
+<rectangle x1="-1.675" y1="-0.875" x2="-0.925" y2="0.875" layer="51"/>
+<rectangle x1="0.925" y1="-0.875" x2="1.675" y2="0.875" layer="51"/>
+<wire x1="-2.46" y1="1.16" x2="2.46" y2="1.16" width="0.12" layer="21"/>
+<wire x1="2.46" y1="1.16" x2="2.46" y2="-1.16" width="0.12" layer="21"/>
+<wire x1="2.46" y1="-1.16" x2="-2.46" y2="-1.16" width="0.12" layer="21"/>
+<wire x1="-2.46" y1="-1.16" x2="-2.46" y2="1.16" width="0.12" layer="21"/>
+<text x="-2.4" y="1.3" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;NAME</text>
+<text x="-2.4" y="-2.3" size="1" layer="27" font="vector" ratio="15" distance="45">&gt;VALUE</text>
+<wire x1="-1.615" y1="0.815" x2="-1.615" y2="-0.815" width="0.12" layer="51"/>
+<wire x1="-1.615" y1="-0.815" x2="1.615" y2="-0.815" width="0.12" layer="51"/>
+<wire x1="1.615" y1="-0.815" x2="1.615" y2="0.815" width="0.12" layer="51"/>
+<wire x1="1.615" y1="0.815" x2="-1.615" y2="0.815" width="0.12" layer="51"/>
+</package>
+<package name="C1210">
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<wire x1="-2.46" y1="1.61" x2="2.46" y2="1.61" width="0.12" layer="21"/>
+<wire x1="2.46" y1="1.61" x2="2.46" y2="-1.61" width="0.12" layer="21"/>
+<wire x1="2.46" y1="-1.61" x2="-2.46" y2="-1.61" width="0.12" layer="21"/>
+<wire x1="-2.46" y1="-1.61" x2="-2.46" y2="1.61" width="0.12" layer="21"/>
+<rectangle x1="0.925" y1="-1.32" x2="1.675" y2="1.32" layer="51"/>
+<rectangle x1="-1.675" y1="-1.32" x2="-0.925" y2="1.32" layer="51"/>
+<wire x1="-1.615" y1="1.26" x2="1.615" y2="1.26" width="0.12" layer="51"/>
+<wire x1="1.615" y1="1.26" x2="1.615" y2="-1.26" width="0.12" layer="51"/>
+<wire x1="1.615" y1="-1.26" x2="-1.615" y2="-1.26" width="0.12" layer="51"/>
+<wire x1="-1.615" y1="-1.26" x2="-1.615" y2="1.26" width="0.12" layer="51"/>
+<text x="-2.4" y="1.8" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;NAME</text>
+<text x="-2.4" y="-2.8" size="1" layer="27" font="vector" ratio="15" distance="45">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
-<pin name="1" x="-8.89" y="0" visible="off" length="middle" direction="pas"/>
-<pin name="2" x="8.89" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
-<text x="-3.81" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="0.889" x2="-2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.159" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.286" size="1.778" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="C">
+<pin name="P$1" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="P$2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<rectangle x1="-1.778" y1="-1.016" x2="1.778" y2="-0.508" layer="94"/>
+<wire x1="0" y1="-0.508" x2="0" y2="0" width="0.1524" layer="94"/>
+<rectangle x1="-1.778" y1="-2.032" x2="1.778" y2="-1.524" layer="94"/>
+<wire x1="0" y1="-2.032" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="1.524" y="0.254" size="1.27" layer="95">&gt;NAME</text>
+<text x="1.524" y="-4.064" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R_" prefix="R" uservalue="yes">
+<deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Resistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0603" package="R0603">
+<device name="_0603" package="R0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -212,7 +302,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="0805" package="R0805">
+<device name="_0805" package="R0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -221,7 +311,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206" package="R1206">
+<device name="_1206" package="R1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -230,7 +320,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="0402" package="R0402">
+<device name="_0402" package="R0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -239,7 +329,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="1210" package="R1210">
+<device name="_1210" package="R1210">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -248,7 +338,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="2010" package="R2010">
+<device name="_2010" package="R2010">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -257,10 +347,62 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="2512" package="R2512">
+<device name="_2512" package="R2512">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C" prefix="C" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_1206" package="C1206">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_1210" package="C1210">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

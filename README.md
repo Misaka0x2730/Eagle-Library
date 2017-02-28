@@ -4,21 +4,21 @@ My libraries for Eagle CAD.
 #Content
 
 <b>Misaka-RCL.lbr:</b><br>
-<b>Resistors:</b>
-* 0402
-* 0603
-* 0805
-* 1206
-* 1210
-* 2010
-* 2512
-<br><br>
-<b>Capacitors:</b>
-* 0402
-* 0603
-* 0805
-* 1206
-* 1210
+* <b>Resistors:</b>
+ * 0402
+ * 0603
+ * 0805
+ * 1206
+ * 1210
+ * 2010
+ * 2512
+
+* <b>Capacitors:</b>
+ * 0402
+ * 0603
+ * 0805
+ * 1206
+ * 1210
 
 #License
 

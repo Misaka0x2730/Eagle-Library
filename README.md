@@ -20,6 +20,11 @@ My libraries for Eagle CAD.
  * 1206
  * 1210
 
+<b>Misaka-IC.lbr</b><br>
+* SHT21 - Humitidy and Temperature Sensor
+* BMP180 - Digital Pressure Sensor
+* NRF8001 - Bluetooth Low Energy IC
+
 #License
 
 The MIT License (MIT)

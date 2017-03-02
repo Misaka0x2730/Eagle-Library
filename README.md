@@ -29,6 +29,10 @@ My libraries for Eagle CAD.
 * ADM485ARZ - 5V RS-485 Transceiver
 * ADM3485ARZ - 3.3V RS-485 Transceiver
 * 24C02CSN/04CSN - 2K/4K Two-Wire Serial EEPROM
+* SN65HVD230D, SN65HVD231D, SN65HVD232D - 3.3V CAN Bus Transceivers
+
+<b>Misaka-Connector.lbr:</b><br>
+* HR911105A - Single RJ45(8P8C) connector with magnetics and LED
 
 #License
 

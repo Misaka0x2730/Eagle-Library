@@ -24,6 +24,8 @@ My libraries for Eagle CAD.
 * SHT21 - Humitidy and Temperature Sensor
 * BMP180 - Digital Pressure Sensor
 * NRF8001 - Bluetooth Low Energy IC
+* KSZ8863MLL/FLL/RLL - Integrated 3-Port 10/100 Ethernet switch with PHY
+* CR95HF - 13.56MHz multi-protocol contactless transceiver IC
 
 #License
 

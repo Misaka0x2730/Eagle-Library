@@ -26,7 +26,9 @@ My libraries for Eagle CAD.
 * NRF8001 - Bluetooth Low Energy IC
 * KSZ8863MLL/FLL/RLL - Integrated 3-Port 10/100 Ethernet switch with PHY
 * CR95HF - 13.56MHz multi-protocol contactless transceiver IC
-
+* ADM485ARZ - 5V RS-485 Transceiver
+* ADM3485ARZ - 3.3V RS-485 Transceiver
+* 24C02/04CSN - 2K/4K Two-Wire Serial EEPROM
 #License
 
 The MIT License (MIT)

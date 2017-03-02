@@ -70,6 +70,10 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>Resistors, Capacitors, Inductors&lt;br&gt;&lt;br&gt;
+
+Created by &lt;i&gt;Misaka0x2730&lt;/i&gt;&lt;br&gt;
+https://github.com/Misaka0x2730</description>
 <packages>
 <package name="0603">
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1" rot="R270"/>

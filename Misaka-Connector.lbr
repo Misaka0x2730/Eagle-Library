@@ -136,7 +136,7 @@ https://github.com/Misaka0x2730</description>
 </symbols>
 <devicesets>
 <deviceset name="HR911105A" prefix="X">
-<description>Single RJ45 port with magnetics and led</description>
+<description>Single RJ45(8P8C) connector with magnetics and LED</description>
 <gates>
 <gate name="G$1" symbol="HR911105A" x="0" y="0"/>
 </gates>

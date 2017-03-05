@@ -42,6 +42,19 @@ My libraries for Eagle CAD.
 
 <b>Misaka-Connector.lbr:</b><br>
 * HR911105A - Single RJ45(8P8C) connector with magnetics and LED
+* CR2032 - 2032 battery holder
+* MICRO-SD - Micro-SD card holder
+
+<b>Misaka-Transistor.lbr:</b><br>
+* BC846 - 65V, 100mA NPN general-purpose transistor
+
+<b>Misaka-Diode.lbr:</b><br>
+* BAV99 - High-speed switching diode
+* SMAJ*A - Transient Voltage Suppressors(5.0, 6.0)
+* SMAJ*CA - Bi-directional Transient Voltage Suppressors(5.0, 6.0)
+* SMBJ*A - Transient Voltage Suppressors(5.0, 6.0)
+* SMBJ*CA - Bi-directional Transient Voltage Suppressors(5.0, 6.0)
+* SMD_LED - 1206
 
 #License
 

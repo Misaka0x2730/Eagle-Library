@@ -1,7 +1,7 @@
 # Eagle-Library
 My libraries for Eagle CAD.
 
-#Content
+# Content
 
 <b>Misaka-RCL.lbr:</b><br>
 * <b>Resistors:</b>
@@ -56,7 +56,7 @@ My libraries for Eagle CAD.
 * SMBJ*CA - Bi-directional Transient Voltage Suppressors(5.0, 6.0)
 * SMD_LED - 1206
 
-#License
+# License
 
 The MIT License (MIT)
 
